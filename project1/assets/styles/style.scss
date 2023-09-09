@@ -1,0 +1,32 @@
+@import "measures";
+@import "colors";
+@import "fonts";
+@import "fontsizes";
+
+
+.main1{
+    background-color: $mydodgerblue;
+    width: $width3;
+    height: $height4;
+    font-family: $fontfamily1;
+    font-size: $fontsize1;
+    color: $color2;
+}
+
+.sub1{
+    background-color: $mywhite;
+    width: $width2;
+    height: $height2;
+}
+
+.main2{
+    background-color: $mydodgerblue;
+    width: $width3;
+    height: $height4;
+}
+
+.sub2{
+    background-color: $mywhite;
+    width: $width2;
+    height: $height2;
+}
