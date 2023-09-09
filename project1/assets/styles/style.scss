@@ -3,23 +3,23 @@
 @import "fonts";
 @import "fontsizes";
 
-@mixin little-box{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
+@mixin little-box($margin, $padding, $radius,){
+    margin: $margin;
+    padding: $padding;
+    border-radius: $border-radius;
     }
 
 
 .main1{
+    
     background-color: $mydodgerblue;
     width: $width3;
     height: $height4;
     font-family: $fontfamily1;
-    font-size: $fontsize1;
-    color: $color2;
 }
 
 .sub1{
+    @include little-box(10px, 10px ,5px);
     background-color: $mywhite;
     width: $width2;
     height: $height2;
