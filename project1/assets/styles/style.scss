@@ -24,16 +24,3 @@
     width: $width2;
     height: $height2;
 }
-
-.main2{
-    background-color: $mydodgerblue;
-    width: $width3;
-    height: $height4;
-}
-
-.sub2{
-    @include little-box;
-    background-color: $mywhite;
-    width: $width2;
-    height: $height2;
-}
