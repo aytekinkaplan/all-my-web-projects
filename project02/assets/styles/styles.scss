@@ -8,7 +8,8 @@ header{
 @mixin boxmodel{
     display: grid;
     grid-template-columns: auto;
-    width: 250px;
+    text-align: center;
+    width: 20%;
     height: 250px;
     border-radius: 5px;
     box-shadow: nth($colors, 4);
@@ -18,10 +19,13 @@ header{
     @include boxmodel;
     }
     .box1{
+      .image-place-holder{
         img{
-            margin: auto;
-            border-radius: 5px;
+            width: fit-content;
+            height: fit-content;
         }
+
+      }
     }
     .box2{
         background-color: nth($colors , 1);
