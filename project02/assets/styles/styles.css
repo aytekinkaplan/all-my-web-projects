@@ -10,10 +10,12 @@ header {
   width: 20%;
   height: 250px;
   border-radius: 5px;
-  box-shadow: #F69333;
+  box-shadow: black;
 }
 
 .box1 .image-place-holder img {
+  margin: 0;
+  padding: 0;
   width: -moz-fit-content;
   width: fit-content;
   height: -moz-fit-content;
