@@ -17,7 +17,7 @@ header{
     padding: 0;
     border-radius: 5px;
     box-shadow: nth($colors, 13);
-    border: 2px dashed nth($colors, 5)
+    border: 2px dashed nth($colors, 5);
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
@@ -25,6 +25,8 @@ header{
     }
     .box1{
         img{
+            margin: 0;
+           padding: 0;
             width: fit-content;
            height: fit-content;
        }
