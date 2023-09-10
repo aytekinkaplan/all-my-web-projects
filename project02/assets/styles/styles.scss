@@ -6,6 +6,8 @@ header{
 }
 
 @mixin boxmodel{
+    display: grid;
+    grid-template-columns: auto;
     width: 250px;
     height: 250px;
     border-radius: 5px;
@@ -16,7 +18,10 @@ header{
     @include boxmodel;
     }
     .box1{
-        background-color: nth($colors , 10);
+        img{
+            margin: auto;
+            border-radius: 5px;
+        }
     }
     .box2{
         background-color: nth($colors , 1);
