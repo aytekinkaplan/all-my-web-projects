@@ -1,4 +1,6 @@
-$colors: #92DFF1, #003B4A, #FFFFFF, #F69333, #161941, #BF407D, #61C144, #5C1F57, #399BAC, #3E3EBB, #C14E44, #9200F1;
+$colors: #92DFF1, #003B4A, #FFFFFF, #F69333, 
+#161941, #BF407D, #61C144, #5C1F57, #399BAC,
+ #3E3EBB, #C14E44, #9200F1, black;
 
 header{
     display: flex;
@@ -12,7 +14,7 @@ header{
     width: 20%;
     height: 250px;
     border-radius: 5px;
-    box-shadow: nth($colors, 4);
+    box-shadow: nth($colors, 13);
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
@@ -21,6 +23,8 @@ header{
     .box1{
       .image-place-holder{
         img{
+            margin: 0;
+            padding: 0;
             width: fit-content;
             height: fit-content;
         }
