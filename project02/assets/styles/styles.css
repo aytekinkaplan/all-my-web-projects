@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  gap: 5px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: #F69333;
+}
+
+.box1 {
+  background-color: #3E3EBB;
+}
+
+.box2 {
+  background-color: #92DFF1;
+}
+
+.box3 {
+  background-color: #003B4A;
+}
+
+.box4 {
+  background-color: #9200F1;
+}
+
+.box5 {
+  background-color: #161941;
+}
+
+.box6 {
+  background-color: #BF407D;
+}
+
+.box7 {
+  background-color: #61C144;
+}
+
+.box8 {
+  background-color: #5C1F57;
+}
+
+.box9 {
+  background-color: #399BAC;
+}
+
+.box10 {
+  background-color: #C14E44;
+}/*# sourceMappingURL=styles.css.map */
