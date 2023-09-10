@@ -12,24 +12,22 @@ header{
     grid-template-columns: auto;
     text-align: center;
     width: 20%;
-    height: 250px;
+    height: auto;
+    margin: 0;
+    padding: 0;
     border-radius: 5px;
     box-shadow: nth($colors, 13);
+    border: 2px dashed nth($colors, 5)
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
     @include boxmodel;
     }
     .box1{
-      .image-place-holder{
         img{
-            margin: 0;
-            padding: 0;
             width: fit-content;
-            height: fit-content;
-        }
-
-      }
+           height: fit-content;
+       }
     }
     .box2{
         background-color: nth($colors , 1);
