@@ -8,14 +8,15 @@ header {
   grid-template-columns: auto;
   text-align: center;
   width: 20%;
-  height: 250px;
-  border-radius: 5px;
-  box-shadow: black;
-}
-
-.box1 .image-place-holder img {
+  height: auto;
   margin: 0;
   padding: 0;
+  border-radius: 5px;
+  box-shadow: black;
+  border: 2px dashed #161941;
+}
+
+.box1 img {
   width: -moz-fit-content;
   width: fit-content;
   height: -moz-fit-content;
