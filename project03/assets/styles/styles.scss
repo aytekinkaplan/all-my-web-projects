@@ -1,0 +1,32 @@
+@mixin boxmodel($width, $height, $background, $border,
+ $borderradius, $boxshadow,$display,$flexdirection,$textalign){
+    width: $width;
+    height: $height;
+    background-color: $background;
+    border: $border;
+    border-radius: $borderradius;
+    box-shadow: $boxshadow;
+    display: $display;
+    flex-direction: $flexdirection;
+    text-align: $textalign;
+    font-size: large;
+}
+
+div{
+    @include boxmodel(250px,710px ,white ,
+    dashed none,5px 5px, 5px 5px rgb(192, 176, 176),flex,column, center);
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 2%;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+}
+

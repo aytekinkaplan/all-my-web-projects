@@ -1,0 +1,24 @@
+div {
+  width: 250px;
+  height: 710px;
+  background-color: white;
+  border: dashed none;
+  border-radius: 5px 5px;
+  box-shadow: 5px 5px rgb(192, 176, 176);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+}
+div img {
+  width: 100%;
+  height: auto;
+  border-radius: 2%;
+  margin: 0;
+  padding: 0;
+}
+div a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
