@@ -8,16 +8,17 @@ header{
 }
 
 @mixin boxmodel{
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 20%;
+    width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
     border-radius: 5px;
-    box-shadow: nth($colors, 13);
+    box-shadow:  5px 5px 5px nth($colors, 13);
     border: 2px dashed nth($colors, 5);
+    box-sizing: border-box;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
@@ -29,7 +30,20 @@ header{
            padding: 0;
             width: fit-content;
            height: fit-content;
+           border: 0;
+          }
+          
+          p{
+            font-weight: 3333333px;
+        }
+       .btn-place-holder{
+        background-color: nth($colors, 13);
+        a{
+            color: nth($colors ,3);
+            text-decoration: none;
        }
+
+
     }
     .box2{
         background-color: nth($colors , 1);
